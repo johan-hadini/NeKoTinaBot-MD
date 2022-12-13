@@ -1,4 +1,4 @@
-<h1 align="center">♻️ NK-BOT-MD ♻️</h1>
+<h1 align="center">♻️ NEKOSMICBOT-MD ♻️</h1>
 <br>
 <div align="center">
 
@@ -59,8 +59,8 @@ Para nuevos desde cero en termux.apk:
 ```
 ## Despues de tener todos los packs instalados en termux solo usen estos comandos para comenzar
 ```bash
-> git clone [URL_DEL_REPOSITORIO_ACTUAL] 
-> cd NK-BOT-MD
+> git clone https://github.com/Yesenia57/NekosmicBot-MD
+> cd NekosmicBot-MD
 > yarn
 > npm start
 
@@ -72,13 +72,13 @@ Para detener al bot en termux:
 - Es aconsejable que crees una carpeta llamada "./sesiones/", luego subas el archivo de "creds.json" ya activado, para ya no tener que escanear otro código QR x'd
 
 ## Desplegable en Railway & Heroku
-- Railway => https://railway.app/new/template?template=URL_del_repositorio_actual
+- Railway => https://railway.app/new/template?template=Yesenia57/NekosmicBot-MD
 
 - Heroku => https://heroku.com/deploy?template=URL_del_repositorio_actual
 
 # ⚡ Necesitas ayuda?, Aquí tienes mi WhatsApp :3
 
-<a href="https://wa.me/51995386439"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/51957041866"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 # 🗿 Agradecido con el de arriba y a estos cracks :3
 
