@@ -120,7 +120,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) =
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     
     await conn.sendMessage(m.chat, {
-image: {url: pweb },
+image: fs.readFileSync('./multimedia/imagenes/logo.jpg'),
 caption: text.trim(),
 footer: `\nUnete alos grupos oficiales del bot usando .gruposwa\n\n❤ By Yesenia️`,
 buttons: [{buttonId: Prefijo+`apoyo`, buttonText: {displayText: "[ REDES SOCIALES ]"}, type: 1}, {buttonId: Prefijo+`creador`, buttonText: {displayText: "[ CREADORA ]",}, type: 1}, {buttonId: Prefijo+`informacion`, buttonText: {displayText: "[ INFORMACION - BOT ]"}, type: 1}],
@@ -138,7 +138,7 @@ const defaultMenu = {
 ╭──❮ \`\`\`Nekosmic-Bot\`\`\` ❯───╮
 │ *🟢 Tiempo activo:* %uptime
 │ *🍁 Version del bot:* %version
-│ *👩🏻‍💻 Dueña del bot:* %prop
+│ *👩🏻‍💻 Dueña del bot:* Yesenia 
 │ *🗽 Prefijo único:* 「 %pref 」
 │ *🍒 Cliente:* %name
 │ *🍎 Premium:* %prem
