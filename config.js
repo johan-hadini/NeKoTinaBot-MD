@@ -14,7 +14,7 @@ const require = createRequire(__dirname)
 const dPkg = require(join(__dirname, './package.json'))
 //
 global.MultiNK = es; //Lenguaje nativo
-global.Propietario = Yesenia
+global.Propietario = dPkg.author.name
 global.OwnerNum = '51957041866'
 global.PaisPrefix = '51'
 global.Prefijo = '.'
