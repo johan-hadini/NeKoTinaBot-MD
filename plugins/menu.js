@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) =
     var textweb = wjson.nk_txt
     } catch (e) {
     var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './multimedia/imagenes/avatar_contact.png')
-    var textweb = '📌 conviertete en un bot usando *.serbot*'
+    var textweb = 'Feliz dia del '
     }
     const message = m.reply(`Cargando menu...\n\n ${textweb}`)
     await message
