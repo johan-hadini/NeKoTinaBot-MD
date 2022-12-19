@@ -34,9 +34,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) =
     var textweb = wjson.nk_txt
     } catch (e) {
     var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './multimedia/imagenes/avatar_contact.png')
-    var textweb = 'Feliz dia del '
+    var textweb = ''
     }
-    const message = m.reply(`Cargando menu...\n\n ${textweb}`)
+    const message = m.reply(`Cargando menu...\n\nPuedes ser bot usando el comando\n*📌 .serbot*`)
     await message
     /**try {
     let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
