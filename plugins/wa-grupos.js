@@ -5,7 +5,7 @@ let handler = async (m, { conn, isOwner }) => {
 	let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './multimedia/imagenes/avatar_contact.png'
 	let name = await conn.getName(m.sender)
 try {
-	let wa = m.reply(`*🩸GRUPOS DEL BOT OFICIALES🍂*
+	m.reply(`*🩸GRUPOS DEL BOT OFICIALES🍂*
 
 *GRUPO OFICIAL 1*
 
