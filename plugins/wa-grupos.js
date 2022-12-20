@@ -1,7 +1,7 @@
 /**
 [ By @NeKosmic || https://github.com/NeKosmic/ ]
 **/
-let handler = async (m, { conn, args }) => {
+let handler = async (m, { conn, isOwner }) => {
 	let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './multimedia/imagenes/avatar_contact.png'
 	let name = await conn.getName(m.sender)
 try {
