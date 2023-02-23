@@ -36,7 +36,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) =
     var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './multimedia/imagenes/avatar_contact.png')
     var textweb = ''
     }
-    const message = m.reply(`Cargando menu...\n\nPuedes ser bot usando el comando\n*📌 .serbot*`)
+    conn.fakeReply(m.chat, `Cargando menu...\n\nPuedes ser bot usando el comando\n*📌 .serbot*`, '0@s.whatsapp.net', '🔥 𝗕𝘆 𝗬𝗲𝘀𝗲𝗻𝗶𝗮 🔥', 'status@broadcast')
     await message
     /**try {
     let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
