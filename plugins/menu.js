@@ -156,7 +156,7 @@ const defaultMenu = {
 }
 handler.help = ['menucompleto', 'menuprincipal', 'allmenu']
 //handler.tags = ['contenido']
-handler.command = /^(menucompleto|menuprincipal)$/i
+handler.command = /^(menucompleto|mc|menuprincipal)$/i
 
 handler.exp = 10
 
