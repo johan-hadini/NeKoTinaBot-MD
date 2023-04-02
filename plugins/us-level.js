@@ -10,4 +10,4 @@ import e from"../lib/database.js";import{xpRange as a}from"../lib/levelling.js";
 ╰━━━━━━━━━━━━━━━━━━━━━❐
 
 \`\`\`Use el comando ${Prefijo}inventario para ver tu inventario RPG`\`\`\
-`.trim();await n.sendMessage(i.chat,{image:{url:h},caption:w,mentions:n.parseMention(w)},{quoted:i})};handler.help=["minivel"],handler.tags=["xp"],handler.command=/^(minivel|nivel|level)$/i;export default handler;
+`.trim();await n.sendMessage(i.chat,{image:{url:h},caption:w,mentions:n.parseMention(w)},{quoted:i})};handler.help=["minivel"],handler.tags=["xp"],handler.command = /^(minivel|nivel)$/i;export default handler;
