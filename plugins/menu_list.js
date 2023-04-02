@@ -23,7 +23,7 @@ await conn.sendMessage(m.chat, { text: `*❐ 👤Usuario:* ${pushname}
 *❐ 🗃️Base de datos:* ${rtotalreg} a ${totalreg}
 *❐ 🍎Version del bot:* ${_package.version}
 *❐ 👩🏻‍💻Dueña del bot:* ${_package.author.name}
-*❐ ✳️Prefijo único:" 「 ${Prefijo} 」
+*❐ ✳️Prefijo único:* 「 ${Prefijo} 」
 `, buttonText: "✳️Seleccióne una lista de comandos", sections }, { quoted:m})
 reacMoji(m.chat, conn, '💬', m)
 }
