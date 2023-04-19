@@ -1,4 +1,4 @@
-console.log('[є̲̲̅̅j̲̲̅̅є̲̲̅̅c̲̲̅̅υ̲̲̅̅т̲̲̅̅α̲̲̅̅и̲̲̅̅d̲̲̅̅σ̲̲̅̅ ̲̲̅̅α̲̲̅̅ ̲̲̅̅и̲̲̅̅є̲̲̅̅k̲̲̅̅σ̲̲̅̅s̲̲̅̅м̲̲̅̅i̲̲̅̅c̲̲̅̅ ̲̲̅̅b̲̲̅̅σ̲̲̅̅т̲̲̅̅ ̲̲̅̅]');
+console.log('Ejecuntando al bot mas shidori');
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
@@ -17,7 +17,7 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say(`NekosmicBot-MD`, {
+say(`NeKoTinaBot-MD`, {
   font: 'pallet',
     color: 'candy',
     align: 'center',
