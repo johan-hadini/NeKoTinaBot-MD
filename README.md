@@ -40,7 +40,7 @@
 | Más funciones en adelante|♻️|
 
 # Se les recomienda instalar uno de estos WhatsApps:
-# https://fgmods.epizy.com/?i=1
+[![WHATSAP](https://img.shields.io/badge/-WHATSAPP-green?colorA=%23fa0000&colorB=%23017e40&style=for-the-badge)](https://fgmods.xyz/fgwa),[![WHATSAP](https://img.shields.io/badge/-WHATSAPP%20BUSINESS-green?colorA=%23fa0000&colorB=%23017e40&style=for-the-badge)](https://fgmods.xyz/wa-business)
 
 # 🪀 Instalación en varias plataformas...
 
