@@ -33,10 +33,8 @@ say((`BOT 2023`), {
   })
 
 var isRunning = false
-/**
- * Start a js file
- * @param {String} file `path/to/file`
- */
+/**Start a js file
+@param {String} file `path/to/file`*/
 function start(file) {
   if (isRunning) return
   isRunning = true
