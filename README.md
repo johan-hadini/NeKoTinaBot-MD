@@ -74,10 +74,20 @@ Para detener al bot en termux:
 # 🔥 Ejecutar el bot 24/7 
 - Es aconsejable que crees una carpeta llamada "./sesiones/", luego subas el archivo de "creds.json" ya activado, para ya no tener que escanear otro código QR x'd
 
-## Desplegable en Railway & Heroku
-- Railway => https://railway.app/new/template?template=URL_del_repositorio_actual
+### 💥 En Railway
+[![Run on Railway](https://img.shields.io/badge/-Run%20Rayliway-green?colorA=%23fa0000&colorB=%23017e40&style=for-the-badge)](https://railway.app/new/template?template=https://github.com/Yesenia57/NeKoTinaBot-MD/)
 
-- Heroku => https://heroku.com/deploy?template=URL_del_repositorio_actual
+### 💥 En Replit
+[![Run on Repl.it](https://replit.com/badge/github/Yesenia57/NeKoTinaBot-MD)](https://repl.it/github/Yesenia57/NeKoTinaBot-MD)
+
+### 💥 En Heroku
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yesenia57/NeKoTinaBot-MD/)
+
+### 💥 En Render
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https://github.com/Yesenia57/NeKoTinaBot-MD/)
+
+### 💥 En Koyeb
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Yesenia57/NeKoTinaBot-MD&branch=master&name=nekotinabot)
 
 # ⚡ Necesitas ayuda?, Aquí tienes mi WhatsApp :3
 
