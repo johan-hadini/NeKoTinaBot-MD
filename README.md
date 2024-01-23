@@ -75,7 +75,7 @@ Para detener al bot en termux:
 - Es aconsejable que crees una carpeta llamada "./sesiones/", luego subas el archivo de "creds.json" ya activado, para ya no tener que escanear otro código QR x'd
 
 ### 💥 En Railway
-[![Run on Railway](https://img.shields.io/badge/-Run%20Rayliway-green?colorA=%23fa0000&colorB=%23017e40&style=for-the-badge)](https://railway.app/new/template?template=https://github.com/Yesenia57/NeKoTinaBot-MD/)
+[![Run on Railway](https://img.shields.io/badge/-Run%20Railway-green?colorA=%23fa0000&colorB=%23017e40&style=for-the-badge)](https://railway.app/new/template?template=https://github.com/Yesenia57/NeKoTinaBot-MD/)
 
 ### 💥 En Replit
 [![Run on Repl.it](https://replit.com/badge/github/Yesenia57/NeKoTinaBot-MD)](https://repl.it/github/Yesenia57/NeKoTinaBot-MD)
